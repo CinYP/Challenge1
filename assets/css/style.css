@@ -14,7 +14,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Moved <h1> to display in inline-block.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Moved navigation under the nav tag for easier styling*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +32,12 @@ body {
     font-size: 20px;
 }
 
+/*Removed bullets from navigation list.*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*Moved navigation to display in inline- block so they display in a row.*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -102,7 +104,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*SEO, Online Reputation Marketing, and Social Media Marketing Section had several reptitive styling so I added a class attribute to bring them under the same umbrella.*/
 .marketing {
     margin-bottom: 20px;
     padding: 50px;
